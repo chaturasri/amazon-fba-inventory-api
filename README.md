@@ -11,3 +11,10 @@ Production-grade REST API for **Amazon SDE role** - simulates FBA inventory oper
 - ✅ Input validation & error handling
 - ✅ Production-ready: Docker, tests, monitoring
 
+ API Endpoints
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `POST` | `/api/products` | Create product + stock allocation |
+| `GET` | `/api/products` | List all products |
+| `GET` | `/api/inventory/low-stock` | **FBA Low Stock Alerts** |
+| `GET` | `/api/health` | Health check |
